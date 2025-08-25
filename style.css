@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: whitesmoke;
+    padding: 120px;
+}
+ 
+.main{
+    background-color: white;
+   margin-left:280px;
+    width: 450px;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);}
+h1{
+    color:black;
+    font-size: 45px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-bottom: 28px;
+}
+.icon{
+    width: 45px;
+    position:absolute;
+    left: 730px;
+    top:195px;
+}
+h2{
+    font-size: 25px;
+    margin:8px 0px;
+    color:black;
+}
+input{
+    width:340px;
+    height:38px;
+    margin:5px 0px ;
+    border-color: solid 1px whitesmoke;
+    
+}
+button{
+    display: block;
+    margin: 23px 0px;
+    font-size: 17px;
+    padding:12px 112px;
+    background-color: whitesmoke;
+    border: none;
+
+}
+
+.list{
+    display: flex;
+    font-size: 22px;
+    
+}
+.amount-items{
+    margin-left: 260px;
+    list-style:none;
+    
+
+}
+.current-balance{
+    margin-left: 50px;
+}
+.Transactions{
+    list-style:none;
+}
+
+
+
+@media screen and (max-width:375px) {
+    body{
+        padding:50px 15px;
+    }
+    .main{
+        margin-left: 0px;
+        width: 300px;
+        padding: 20px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    input{
+        width: 260px;
+        height: 34px;
+    }
+    button{
+        padding: 10px 70px;
+    }
+    .icon{
+        left: 260px;
+        top:90px;
+
+    }
+
+}

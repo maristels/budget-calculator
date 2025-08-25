@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>budget buddy</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <div class="main">
+    <h1>Budget Buddy</h1>
+    <img src="icons8-money-48.png" alt="icons8-money-48" class="icon">
+    <h2>Description:</h2>
+    <input type="text" class="description">
+    <h2>Amount:</h2>
+    <input type="number" class="amount" placeholder=" Type in (-) for expenses">
+    <button class="Add-transaction-button" onclick="addTransaction()">Add Transaction</button>
+
+    <h2>Transactions:</h2>
+    <div class="list">
+    <ol class="Transactions"></ol>
+    <ol class="amount-items"></ol>
+</div>
+ 
+<h2 class="current-balance">Current Balance: $ <span class="balance"></span></h2>
+</div>
+
+</body>
+</html>
