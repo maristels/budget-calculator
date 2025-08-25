@@ -93,5 +93,11 @@ button{
         top:90px;
 
     }
+    .amount-items{
+        margin-left: 200px;
+    }
+    .current-balance{
+        margin-left: 30px;
+    }
 
 }
