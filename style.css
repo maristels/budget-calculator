@@ -4,12 +4,12 @@
 }
 body{
     background-color: whitesmoke;
-    padding: 120px;
+    width: 100%;
 }
  
 .main{
     background-color: white;
-   margin-left:280px;
+   margin:100px 360px;
     width: 450px;
     padding: 50px;
     border-radius: 5px;
@@ -24,8 +24,8 @@ h1{
 .icon{
     width: 45px;
     position:absolute;
-    left: 730px;
-    top:195px;
+    left: 695px;
+    top:175px;
 }
 h2{
     font-size: 25px;
@@ -71,10 +71,10 @@ button{
 
 @media screen and (max-width:375px) {
     body{
-        padding:10px 15px;
-    }
+    width: 100%; 
+   }
     .main{
-        margin-left: 0px;
+        margin:100px 10px;
         width: 300px;
         padding: 20px;
     }
@@ -89,8 +89,8 @@ button{
         padding: 10px 70px;
     }
     .icon{
-        left: 290px;
-        top:90px;
+        left: 255px;
+        top:135px;
 
     }
     .amount-items{
