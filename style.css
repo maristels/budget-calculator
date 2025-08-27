@@ -71,7 +71,7 @@ button{
 
 @media screen and (max-width:375px) {
     body{
-        padding:50px 15px;
+        padding:10px 15px;
     }
     .main{
         margin-left: 0px;
@@ -89,7 +89,7 @@ button{
         padding: 10px 70px;
     }
     .icon{
-        left: 280px;
+        left: 290px;
         top:90px;
 
     }
