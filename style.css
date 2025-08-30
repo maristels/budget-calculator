@@ -72,6 +72,8 @@ button{
 @media screen and (max-width:375px) {
     body{
     width: 100%; 
+            overflow-x: hidden;
+
    }
     .main{
         margin:100px 10px;
